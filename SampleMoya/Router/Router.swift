@@ -22,6 +22,12 @@ final class Router {
         self.window = window
     }
     
+    func showWeb(from: UIViewController, gitHubModel: GitHubModel) {
+        guard let vc = UIStoryboard.init(name: "Web", bundle: nil).instantiateInitialViewController() as? WebViewController else { return }
+        vc.configure(gitHubModel: gitHubModel)
+        show(from: from, to: vc)
+      }
+    
     private func show(from: UIViewController, to: UIViewController, completion:(() -> Void)? = nil){
         
         if let nav = from.navigationController {

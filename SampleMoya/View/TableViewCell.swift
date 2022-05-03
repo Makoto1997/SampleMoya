@@ -8,9 +8,23 @@
 import UIKit
 
 final class TableViewCell: UITableViewCell {
-
+    
+    static var className: String { String(describing: TableViewCell.self)}
+    
+    @IBOutlet private weak var titleLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+    }
+    
+    override func prepareForReuse() {
+        super.prepareForReuse()
+        
+        titleLabel.text = nil
+    }
+    
+    func configure(gitHubModel: GitHubModel) {
+        
+        titleLabel.text = gitHubModel.fullName
     }
 }
