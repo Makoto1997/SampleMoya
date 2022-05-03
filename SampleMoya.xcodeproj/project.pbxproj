@@ -19,7 +19,7 @@
 		0E1FADB4281E7E7E004398E5 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 0E1FADB3281E7E7E004398E5 /* Moya */; };
 		0E1FADB6281E7E7E004398E5 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 0E1FADB5281E7E7E004398E5 /* ReactiveMoya */; };
 		0E1FADB8281E7E7E004398E5 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 0E1FADB7281E7E7E004398E5 /* RxMoya */; };
-		0E1FADBA281E7E9C004398E5 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1FADB9281E7E9C004398E5 /* API.swift */; };
+		0E1FADBA281E7E9C004398E5 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1FADB9281E7E9C004398E5 /* GitHubAPI.swift */; };
 		0E1FADBC281ECCEF004398E5 /* List.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1FADBB281ECCEF004398E5 /* List.storyboard */; };
 		0E1FADBF281ECD49004398E5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1FADBD281ECD49004398E5 /* TableViewCell.swift */; };
 		0E1FADC0281ECD49004398E5 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1FADBE281ECD49004398E5 /* TableViewCell.xib */; };
@@ -58,7 +58,7 @@
 		0E1FAD9A281E69C2004398E5 /* SampleMoyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMoyaUITests.swift; sourceTree = "<group>"; };
 		0E1FAD9C281E69C2004398E5 /* SampleMoyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMoyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0E1FADAE281E7CE8004398E5 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		0E1FADB9281E7E9C004398E5 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		0E1FADB9281E7E9C004398E5 /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
 		0E1FADBB281ECCEF004398E5 /* List.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = List.storyboard; sourceTree = "<group>"; };
 		0E1FADBD281ECD49004398E5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		0E1FADBE281ECD49004398E5 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 		0E1FADAA281E7C89004398E5 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				0E1FADB9281E7E9C004398E5 /* API.swift */,
+				0E1FADB9281E7E9C004398E5 /* GitHubAPI.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -356,7 +356,7 @@
 				0E1FAD7E281E69C0004398E5 /* ListViewController.swift in Sources */,
 				0E1FADAF281E7CE8004398E5 /* Router.swift in Sources */,
 				0E1FADC6281ECE62004398E5 /* GitHubModel.swift in Sources */,
-				0E1FADBA281E7E9C004398E5 /* API.swift in Sources */,
+				0E1FADBA281E7E9C004398E5 /* GitHubAPI.swift in Sources */,
 				0E1FAD7A281E69C0004398E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
