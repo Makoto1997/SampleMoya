@@ -19,6 +19,6 @@ struct GitHubModel: Codable {
     
     enum CodingKeys: String, CodingKey {
         
-        case fullname = "full_name"
+        case fullName = "full_name"
     }
 }
